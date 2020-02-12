@@ -2,6 +2,7 @@
 #include <iomanip>
 #include "Inventory.h"
 
+using namespace std;
 using std::string;
 using std::ostream;
 
@@ -17,7 +18,7 @@ Inventory::Inventory(string name, float price, int count)
 void Inventory::sell()
 {
   if (m_in_stock == 0)
-     cout << "Sorry, that item is out of stock" << endl;
+     cout<<"Sorry, that item is out of stock"<< endl;
   else
     m_in_stock--;
 }
