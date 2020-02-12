@@ -5,6 +5,7 @@
 using std::string;
 using std::ostream;
 
+//Creates a class to hold the item name, the price and the quantity in stock
 class Inventory
 {
   private:
