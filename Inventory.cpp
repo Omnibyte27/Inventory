@@ -25,8 +25,12 @@ void Inventory::sell()
 
 ostream& operator<<(ostream& stream, const Inventory& item)
 {
+<<<<<<< HEAD
   stream << item.m_name
          << " $"
+=======
+  stream << item.m_name << " $"
+>>>>>>> 8bb7e6c8b02d1c5bfc6aec5d55603f382a81eb25
          << std::fixed << std::setprecision(2) << item.m_price;
   return stream;
 }
